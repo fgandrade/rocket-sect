@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #2C2B3D;
+}
+
+.page {
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 65px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+nav img, main img {
+    margin-left: 99px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 64px;
+    margin: 0;
+    top: 0;
+    margin-right: 98px;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #FFF;
+}
+
+section h1, ul, .logo {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+main {
+    display: flex;
+}
+
+section h1 {
+    position: absolute;
+    height: 40px;
+    width: 610px;
+    left: 627px;
+    top: 138px;
+    font-size: 36px;
+    line-height: 40px;
+    color: #FFF;
+    text-align: center;
+}
+
+section h1 span {
+    color: #00BFA6;
+    font-weight: bold;
+}
+
+section p {
+    position: absolute;
+    height: 168px;
+    width: 574px;
+    left: 627px;
+    top: 207px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #C2C2C2;
+    margin: 40px 0;
+}
+
+section p span {
+    color: #00BFA6;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 150px;
+    color: #FFF;
+}
+
+footer div.line{
+    width: 568px;
+    height: 0px;
+    margin: 0 auto 8px;
+    border: 1px #00BFA6 solid;
+}
+
+#padlock {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
